@@ -1,0 +1,32 @@
+
+.containerInput{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+justify-content: center;
+margin: auto;
+border: 0;
+padding: 0;
+}
+.cityInput {
+    font: normal 1rem 'Montserrat';
+    width: 20vw;
+    height: 3vh;
+    color: rgb(11, 11, 81);
+    padding: 5px;
+    text-align: center;   
+}
+
+.cityInput > p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.weatherAnswer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: .8em;
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
+}
+
